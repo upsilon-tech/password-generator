@@ -1,0 +1,62 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacement en bas */
+}
+
+.label {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px; /* Espacement entre l'étiquette et le curseur */
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 3px; /* Hauteur du curseur */
+    background: #007BFF; /* Couleur de la piste du curseur */
+    outline: none;
+    opacity: 0.7; /* Opacité de la piste du curseur */
+    transition: opacity 0.2s;
+    border-radius: 5px; /* Arrondi de la piste du curseur */
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; /* Largeur du curseur */
+    height: 20px; /* Hauteur du curseur */
+    background: #fff; /* Couleur de fond du curseur */
+    border: 1px solid #007BFF; /* Bordure du curseur */
+    border-radius: 50%; /* Arrondi du curseur */
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background: #007BFF; /* Couleur de fond du curseur au survol */
+    border-color: #007BFF; /* Bordure du curseur au survol */
+}
+
+.slider:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 2px #007BFF; /* Lueur du curseur lorsqu'il est en focus */
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid #007BFF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.slider::-moz-range-thumb:hover {
+    background: #007BFF;
+    border-color: #007BFF;
+}
+
+.slider:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 2px #007BFF;
+}
