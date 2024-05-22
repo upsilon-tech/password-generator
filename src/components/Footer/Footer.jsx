@@ -5,16 +5,16 @@ const Footer = () => {
     return (
         <footer className="footer-style">
             <div className="footer-icons">
-                <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/tidjet-23" target="_blank" rel="noopener noreferrer">
                     <Icon icon="mdi:github" />
                 </a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
                     <Icon icon="mdi:linkedin" />
                 </a>
-                <a href="https://twitter.com/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                     <Icon icon="mdi:twitter" />
                 </a>
-                <a href="https://facebook.com/your-profile" target="_blank" rel="noopener noreferrer">
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                     <Icon icon="mdi:facebook" />
                 </a>
             </div>

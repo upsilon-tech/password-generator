@@ -10,7 +10,7 @@ const PasswordOutput = ({ password, isCopied, setIsCopied }) => {
                     className="password-input"
                     disabled
                     value={password}
-                    placeholder="khireddine tidjet"
+                    placeholder="*Rr`2S^UTJl0u?Z&3=N"
                 />
                 <CopyToClipboard text={password} onCopy={() => setIsCopied(true)}>
                     <button

@@ -21,7 +21,7 @@ const Generator = ({setPassword, setIsCopied}) => {
         symbols: true
     })
     
-    const [passwordLength, setPasswordLength] = useState(6)
+    const [passwordLength, setPasswordLength] = useState(24)
 
     const generatePassword = (parameters, length) => {
 
